@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --open --port 5505"
   },
   "author": "li",
   "license": "ISC",
@@ -22,13 +23,16 @@
     "url-loader": "^0.6.2",
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
-    "webpack": "^4.0.1",
+    "webpack": "^3.11.0",
+    "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.2.0",
+    "normalize.css": "^8.0.0",
     "vue": "^2.5.13",
+    "vue-quill-editor": "^3.0.5",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   }

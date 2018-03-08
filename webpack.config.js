@@ -40,7 +40,7 @@ module.exports = {
                     loader: 'url-loader',
                     options: {
                         // limit参数表示，如果图片大于50b的时候，就是路径形式，如果小于50b，就把图片变成base64格式
-                        limit: 50
+                        limit: 50000
                     }
                 }]
             },
